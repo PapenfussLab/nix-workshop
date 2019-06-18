@@ -1,0 +1,3 @@
+pypi2nix can generate Nix expressions from pypi. Try:
+
+nix run nixpkgs.pypi2nix -c pypi2nix -V 3.6 -e s3io
