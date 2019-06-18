@@ -1,4 +1,4 @@
-* Why Nix?
+## Why Nix?
 
 Managing software is difficult. We've all had the experience where an
 upgrade or install of new software can break something that was
@@ -19,7 +19,7 @@ referring specifically to the locations of required software. This
 solution allows multiple versions of software to be co-installed and
 used simultaneously without issue.
 
-* What is Nix?
+## What is Nix?
 
 Nix is unfortunately an overloaded term and refers to two main things:
 
@@ -36,7 +36,7 @@ concrete things. It takes the description of how to build a piece of
 software and carries it out, producing a _build product_. This is a bit
 like make, if you are familiar with make. 
 
-* What is nixpkgs?
+## What is nixpkgs?
 
 Nixpkgs is the package collection comprising of Nix _expressions_
 (written in Nix the configuration language) for a number of software
@@ -47,7 +47,7 @@ compilation, and manipulating data structures. The library of functions
 is documented in the manual
 (https://nixos.org/nixpkgs/manual/#chap-functions).
 
-* Why BioNix?
+## Why BioNix?
 
 BioNix leverages the Nix system to perform workflows within a
 reproducible computational environment managed by Nix. It is a thin
@@ -56,7 +56,7 @@ be covered in a future workshop in more detail, this workshop will be
 focused on understanding the underlying Nix system.
 
 
-* Useful Nix resources
+## Useful Nix resources
 
 - The Nix manual: https://nixos.org/nix/manual
 - The nixpkgs manual: https://nixos.org/nixpkgs/manual
