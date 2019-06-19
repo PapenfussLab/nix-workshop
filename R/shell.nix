@@ -5,6 +5,7 @@ let
     packages = with pkgs.rPackages; [
       tidyverse
       ggplot2
+      limma
     ];
   };
 in
