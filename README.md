@@ -26,7 +26,7 @@ required software, rather than pointing at a directory like `/usr/bin`.
 This allows multiple versions of software to be co-installed and used
 simultaneously without issue.
 
-Nix makes it easy to
+Nix makes it easy to:
 
 -   Install, uninstall, and upgrade software (cf. package managers like
     apt, Homebrew, pip, conda);
@@ -39,8 +39,8 @@ Nix makes it easy to
 "Nix" is unfortunately an overloaded term, and can refer to two main
 things:
 
-1. Nix the configuration language (c.f. the C programming language); and
-2. Nix the build system (c.f. gcc and make).
+1. Nix the configuration language (cf. the C programming language); and
+2. Nix the build system (cf. gcc and make).
 
 _Nix the language_ is very simple. You can think of it like JSON, but
 extended with comments and, importantly, functions. It is the language
